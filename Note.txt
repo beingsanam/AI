@@ -1,0 +1,18 @@
+Prolog
+
+halt.  -> To terminate prolog file
+
+1. save file with .pl extension in vs code and write the code
+		Eg: 
+			my_name('Suman').  
+
+			print_name :-
+  				my_name(Name),
+  				write(Name), nl.
+
+2. Open Gnu prolog
+ consult('file location').
+	('D:/7th Sem/AI/Lab/name.pl')
+ print_name.
+
+
